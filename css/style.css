@@ -312,6 +312,11 @@ header .mega-menu .links li i {
     transform: translateX(-50%);
     transition: var(--main-transition);
 }
+@media (max-width: 767px) {
+    .landing .go-down {
+        bottom: 95px;
+    }
+}
 .landing .go-down:hover {
     color: var(--main-color-alt);
 }
