@@ -24,3 +24,8 @@ let counter = setInterval(() => {
         clearInterval(counter);
     }
 }, 1000);
+$(document).ready(function () {
+    $("#cl").click(function () {
+        $(".active").toggle(".1s");
+    });
+});
