@@ -1333,6 +1333,18 @@ header .mega-menu .links li i {
 .video .preview .rate i {
     color: #ffc107;
 }
+@media (max-width: 767px) {
+    .video .preview .info {
+        font-size: 14px;
+    }
+    .video .preview .image i {
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+        top: 40%;
+        left: 40%;
+    }
+}
 /* End Video */
 /* Start Stats */
 .stats {
