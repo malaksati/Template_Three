@@ -1335,14 +1335,15 @@ header .mega-menu .links li i {
 }
 @media (max-width: 767px) {
     .video .preview .info {
-        font-size: 14px;
+        font-size: 12px;
     }
     .video .preview .image i {
         font-size: 25px;
         width: 55px;
         height: 55px;
-        top: 40%;
-        left: 40%;
+        top: 39%;
+        left: 42%;
+        padding: 15px 20px;
     }
 }
 /* End Video */
